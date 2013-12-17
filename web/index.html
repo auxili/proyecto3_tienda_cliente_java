@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,10 +36,29 @@
                     <ul class="nav navbar-nav">
                         <li><a class="glyphicon glyphicon-file" href="#about"> Productos</a></li>
                         <li><a class="glyphicon glyphicon-globe" href="#services"> Servicios</a></li>
-                        <li><a class="glyphicon glyphicon-list" href="#contact"> Categorias</a></li>
                         <li><a class="glyphicon glyphicon-envelope" href="#contact"> Contacto</a></li>
-                        <li><a class="glyphicon glyphicon-user" href="#contact"> Login</a></li>
-                        <li><a class="glyphicon glyphicon-shopping-cart" href="#contact"> Cesta</a></li>
+                        <li><a class="glyphicon glyphicon-shopping-cart" href="#contact"> Cart<span class="badge">2</span></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle glyphicon glyphicon-user" data-toggle="dropdown"> Login</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="col-md-12 column">
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Email address</label><input type="email" class="form-control" id="exampleInputEmail1" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Password</label><input type="password" class="form-control" id="exampleInputPassword1" />
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Submit</button>
+                                        </form>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container -->
@@ -51,7 +70,58 @@
 
                 <div class="col-md-3">
                     <p class="lead">ServiSport Valencia</p>
-                    <div class="list-group">
+                    <div class="container">
+                        <div class="row clearfix">
+                            <div class="col-md-3 column">
+                                <div class="panel-group" id="panel-88383">
+                                    <div class="panel mipanel-default">
+                                        <div class="panel-heading">
+                                            <a class="mipanel-default collapsed glyphicon glyphicon-home" data-toggle="collapse" data-parent="#panel-88383" href=""> Home</a>
+                                        </div>
+                                    </div>
+                                    <div class="panel mipanel-default">
+                                        <div class="panel-heading">
+                                            <a class="mipanel-default collapsed glyphicon glyphicon-file" data-toggle="collapse" data-parent="#panel-88383" href="#panel-element-305610"> Productos</a>
+                                        </div>
+                                        <div id="panel-element-305610" class="list-group panel-collapse collapse">
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos01</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos02</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos03</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos04</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos05</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos06</a>
+                                        </div>
+                                    </div>
+                                    <div class="panel mipanel-default">
+                                        <div class="panel-heading">
+                                            <a class="mipanel-default  glyphicon glyphicon-globe" data-toggle="collapse" data-parent="#panel-88383" href="#panel-element-82927"> Services</a>
+                                        </div>
+                                        <div id="panel-element-82927" class="panel-collapse collapse">
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos01</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos02</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos03</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos04</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos05</a>
+                                            <a href="#" class="list-group-item ">&nbsp;  Productos06</a> 
+                                        </div>
+                                    </div>
+                                    <div class="panel mipanel-default">
+                                        <div class="panel-heading">
+                                            <a class="mipanel-default collapsed glyphicon glyphicon-envelope" data-toggle="collapse" data-parent="#panel-88383" href=""> Contact</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="panel mipanel-default">
+                                        <div class="panel-heading">
+                                            <a class="mipanel-default collapsed glyphicon glyphicon-shopping-cart" data-toggle="collapse" data-parent="#panel-88383" href=""><span class="badge">2</span>Cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="list-group">
                         <a href="#" class="list-group-item glyphicon glyphicon-file glyphicon-home">&nbsp;  Productos</a>
                         <a href="#" class="list-group-item glyphicon glyphicon-globe">&nbsp;  Servicios</a>
                         <a href="#" class="list-group-item glyphicon glyphicon-list">&nbsp;  Categorias</a>
@@ -59,6 +129,7 @@
                         <a href="#" class="list-group-item glyphicon glyphicon-user">&nbsp;  Login</a>
                         <a href="#" class="list-group-item glyphicon glyphicon-shopping-cart">&nbsp;  Cesta</a>
                     </div>
+                    -->
                 </div>
 
                 <div class="col-md-9">
@@ -246,6 +317,7 @@
         <!-- JavaScript -->
         <script src="js/jquery-1.10.2.js"></script>
         <script src="js/bootstrap.js"></script>
+
 
     </body>
 </html>
